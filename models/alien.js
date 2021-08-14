@@ -9,6 +9,10 @@ const alienSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  duration: {
+    type: String,
+    required: true
+  },
   sub: {
     type: Boolean,
     required: true,

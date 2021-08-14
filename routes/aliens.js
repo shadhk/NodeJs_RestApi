@@ -24,6 +24,7 @@ router.post("/", async (req, res) => {
   const alien = new Alien({
     name: req.body.name,
     tech: req.body.tech,
+    duration: req.body.duration,
     sub: req.body.sub
   })
 
